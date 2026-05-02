@@ -76,3 +76,16 @@ main {
     color: #65676b;
     font-size: 0.85rem;
 }
+/* Force the hero image to be visible and responsive */
+.hero img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100%;
+}
+
+.hero {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f0f0f0; /* This shows a light grey box if the image is still loading */
+}
