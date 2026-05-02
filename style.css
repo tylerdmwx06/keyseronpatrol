@@ -1,0 +1,78 @@
+/* Reset basic margins */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ebee; /* Facebook-style light grey */
+    color: #1c1e21;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid #003399;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    letter-spacing: -1px;
+}
+
+/* Navigation bar */
+nav {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: #0044cc;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+nav a:hover {
+    background-color: #f0f2f5;
+    border-radius: 5px;
+}
+
+/* Main Content Area */
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.news-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.news-card h2 {
+    color: #0044cc;
+    margin-bottom: 10px;
+}
+
+.date {
+    display: block;
+    margin-top: 15px;
+    color: #65676b;
+    font-size: 0.85rem;
+}
